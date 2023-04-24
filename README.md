@@ -28,7 +28,7 @@ Frequency Rate. 160 Hz
 13. Task 3
 14. Task 4
 
-MNE library is used to extract data. The following preprocessing is conducted:
+MNE library is used to extract, filter and segment data. Scikit-learn library is used for data normalization. The following preprocessing is conducted:
 * Frequency filter 8-33 Hz (Mu & Beta waves)
 * Segmentation
 * Normalization
