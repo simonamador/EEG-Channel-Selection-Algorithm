@@ -37,7 +37,7 @@ MNE library is used to extract, filter and segment data. Scikit-learn library is
 A sequential selection algorithm is done selecting channel sets of 1-6 channels.
 
 # PCA
-The PCA B4 method is applied to select channels which have the highest coefficients on the principal components which hold the most variance of the signal.
+The PCA B4 method is applied to select channels which have the highest coefficients on the principal components which hold the most variance of the signal. Scikit-learn library is used for PCA
 
 # Processing
-Two deep learning classifiers are used, multi-layer perceptron (MLP) and convolutional neural network (CNN). 
+Two deep learning classifiers are used, multi-layer perceptron (MLP) and convolutional neural network (CNN). TensorFlow library is used for classifiers.
