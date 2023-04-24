@@ -6,7 +6,9 @@ Database: https://physionet.org/content/eegmmidb/1.0.0/
 # Preprocessing
 Key points:
 109 Subjects. Three are discarted (87, 91, 100) due to the sample size in the events from their registers.
+
 Channels. 65
+
 Frequency Rate. 160 Hz
 
 14 Tasks each, time varies between 1 and 2 minutes. Tasks are as follows:
@@ -27,16 +29,15 @@ Frequency Rate. 160 Hz
 14. Task 4
 
 MNE library is used to extract data. The following preprocessing is conducted:
-
-Frequency filter 8-33 Hz (Mu & Beta waves)
-Segmentation
-Normalization
+* Frequency filter 8-33 Hz (Mu & Beta waves)
+* Segmentation
+* Normalization
 
 # Sequential Channel Selection
 A sequential selection algorithm is done selecting channel sets of 1-6 channels.
 
 # PCA
-The PCA B4 method is applied to select channels which have the highest coefficients on the principal components which hold the mos variance of the signal.
+The PCA B4 method is applied to select channels which have the highest coefficients on the principal components which hold the most variance of the signal.
 
 # Processing
 Two deep learning classifiers are used, multi-layer perceptron (MLP) and convolutional neural network (CNN). 
