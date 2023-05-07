@@ -3,7 +3,7 @@
 Database: https://physionet.org/content/eegmmidb/1.0.0/
 
 
-# Preprocessing
+## Preprocessing
 Key points:
 109 Subjects. Three are discarted (87, 91, 100) due to the sample size in the events from their registers.
 
@@ -33,11 +33,11 @@ MNE library is used to extract, filter and segment data. Scikit-learn library is
 * Segmentation
 * Normalization
 
-# Sequential Channel Selection
+## Sequential Channel Selection
 A sequential selection algorithm is done selecting channel sets of 1-6 channels.
 
-# PCA
+## PCA
 The PCA B4 method is applied to select channels which have the highest coefficients on the principal components which hold the most variance of the signal. Scikit-learn library is used for PCA
 
-# Processing
+## Processing
 Two deep learning classifiers are used, multi-layer perceptron (MLP) and convolutional neural network (CNN). TensorFlow library is used for classifiers.
