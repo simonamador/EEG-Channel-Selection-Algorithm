@@ -1,7 +1,10 @@
 # EEG-Channel-Selection-Algorithm
-
+*The following project was conducted as part of an on-going research on channel selection algorithms*
 Database: https://physionet.org/content/eegmmidb/1.0.0/
 
+## Purpose
+
+The following project aimed to evaluate the influence PCA and sequential selection algorithms for channel selection in an electroencephalography (EEG) signal pre-processing on the accuracy of motion imagery classification for a multi-layer perceptron (MLP) and Convolutional Neural Network (CNN) classifiers.
 
 ## Preprocessing
 Key points:
